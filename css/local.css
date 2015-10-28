@@ -1,0 +1,38 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+img {
+	border-style: solid;
+    border-width: medium;
+    border-color: gray;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+footer p {
+	text-align: center;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+.right-nav {
+    padding-top: 20px;
+}
+
+.right-nav ol {
+    margin: 10px 10px 0 40px;
+}
+
+.right-nav ol > li {
+    padding: 4px 0;
+}
+
+.right-nav ul > li {
+    margin-left: -20px;
+}
